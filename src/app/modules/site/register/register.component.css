@@ -1,0 +1,11 @@
+.card-body {
+  color: gray;
+}
+
+.card-body h1 {
+  color: black;
+}
+
+.form-control {
+  background: #fafafa;
+}
