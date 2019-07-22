@@ -9,6 +9,8 @@ import { SiteHeaderComponent } from './site-layout/site-header/site-header.compo
 import { SiteFooterComponent } from './site-layout/site-footer/site-footer.component';
 import { SiteNavComponent } from './site-layout/site-nav/site-nav.component';
 import { RegisterComponent } from './register/register.component';
+import { AccountsLayoutComponent } from './site-layout/accounts-layout/accounts-layout.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { RegisterComponent } from './register/register.component';
     SiteHeaderComponent,
     SiteFooterComponent,
     SiteNavComponent,
-    RegisterComponent
+    RegisterComponent,
+    AccountsLayoutComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,
