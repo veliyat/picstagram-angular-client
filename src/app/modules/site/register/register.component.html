@@ -1,8 +1,8 @@
 <div class="card">
   <div class="card-body">
-    <h1 class="text-center logo">Picstagram</h1>
+    <h1 class="text-center logo" routerLink="/">Picstagram</h1>
     <p class="text-center">
-        Sign up to see photos and videos from your friends.
+      Sign up to see photos and videos from your friends.
     </p>
     <p>
       <button class="btn btn-primary btn-block btn-sm">
@@ -21,7 +21,7 @@
         <hr>
       </div>
     </div>
-    <form action="">
+    <form [formGroup]="registerForm" action="">
       <div class="form-group">
         <input type="text" class="form-control form-control-sm" placeholder="Mobile Number or Email">
       </div>
@@ -39,12 +39,13 @@
     </form>
 
     <p class="text-center mt-4">
-      By signing up, you agree to our <a href="#">Terms</a> , <a href="#">Data Policy</a> and <a href="#">Cookies Policy</a>
+      By signing up, you agree to our <a href="#">Terms</a> , <a href="#">Data Policy</a> and <a href="#">Cookies
+        Policy</a>
     </p>
   </div>
 </div>
 <div class="card mt-2">
   <div class="text-center card-body">
-      Have an account? <a routerLink="/accounts/login">Log In</a>
+    Have an account? <a routerLink="/accounts/login">Log In</a>
   </div>
 </div>
