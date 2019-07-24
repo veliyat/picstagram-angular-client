@@ -29,6 +29,7 @@ export class LoginComponent implements OnInit {
 
   login() {
     const { username, password } = this.loginForm.value;
+    //TODO: get authentication from an API (Web service)
     if (username === 'admin' && password === 'admin') {
       //TODO: take the localstorage to a service
       //TODO: redirection done with window.location has to change
